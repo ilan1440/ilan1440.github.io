@@ -1,1 +1,29 @@
 hello ilan
+<html>
+  <header>
+    <script language='javascript'>
+      function calculate (){
+        var n1= document.getElementById('num1').value*1;
+        var n2= document.getElementById('num2').value*1;
+        var op = document.getElementById('operator').value;
+        if(op=='+') res = n1+n2;
+        if(op=='-') res = n1-n2;
+        if(op=='*') res = n1*n2;
+        document.getElementById('result').value=res;
+      }
+    </script>
+  </header>
+  <body>
+    <h3>Exrecise 1</h3>
+    <input type= 'num' id ='num1'>
+    <select id ='operator'>
+      <option '+' + </option>
+      <option '-' - </option>
+      <option '*' * </option>
+    </select>
+     <input type= 'text' id ='num2'>
+    <button onClick='calculate()'>=</button>
+    <input type='text' id ='result'>
+  </body>
+</html>
+      
